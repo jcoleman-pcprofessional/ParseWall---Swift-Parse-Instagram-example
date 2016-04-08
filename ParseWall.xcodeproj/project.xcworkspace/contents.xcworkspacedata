@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ParseTutorial.xcodeproj">
+      location = "self:/Volumes/Storage/GoogleDrive/GitHub/ParseWall/ParseWall.xcodeproj">
    </FileRef>
 </Workspace>

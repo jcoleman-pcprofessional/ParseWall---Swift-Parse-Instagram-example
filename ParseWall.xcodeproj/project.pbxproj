@@ -52,13 +52,13 @@
 
 /* Begin PBXFileReference section */
 		0E234A3F1AACA6B100FDA76B /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		0E5977201AA9F46F00CB22B6 /* ParseTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5977201AA9F46F00CB22B6 /* ParseWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5977241AA9F46F00CB22B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E5977251AA9F46F00CB22B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E59772A1AA9F46F00CB22B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E59772C1AA9F46F00CB22B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E59772F1AA9F46F00CB22B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0E5977351AA9F46F00CB22B6 /* ParseTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5977351AA9F46F00CB22B6 /* ParseWall.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseWall.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E59773A1AA9F46F00CB22B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E59773B1AA9F46F00CB22B6 /* ParseTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseTutorialTests.swift; sourceTree = "<group>"; };
 		0E5977481AA9F4CF00CB22B6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		0E5977211AA9F46F00CB22B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E5977201AA9F46F00CB22B6 /* ParseTutorial.app */,
-				0E5977351AA9F46F00CB22B6 /* ParseTutorialTests.xctest */,
+				0E5977201AA9F46F00CB22B6 /* ParseWall.app */,
+				0E5977351AA9F46F00CB22B6 /* ParseWall.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,9 +266,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E59771F1AA9F46F00CB22B6 /* ParseTutorial */ = {
+		0E59771F1AA9F46F00CB22B6 /* ParseWall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E59773F1AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseTutorial" */;
+			buildConfigurationList = 0E59773F1AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseWall" */;
 			buildPhases = (
 				0E59771C1AA9F46F00CB22B6 /* Sources */,
 				0E59771D1AA9F46F00CB22B6 /* Frameworks */,
@@ -278,14 +278,14 @@
 			);
 			dependencies = (
 			);
-			name = ParseTutorial;
+			name = ParseWall;
 			productName = ParseTutorial;
-			productReference = 0E5977201AA9F46F00CB22B6 /* ParseTutorial.app */;
+			productReference = 0E5977201AA9F46F00CB22B6 /* ParseWall.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0E5977341AA9F46F00CB22B6 /* ParseTutorialTests */ = {
+		0E5977341AA9F46F00CB22B6 /* ParseWallTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E5977421AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseTutorialTests" */;
+			buildConfigurationList = 0E5977421AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseWallTests" */;
 			buildPhases = (
 				0E5977311AA9F46F00CB22B6 /* Sources */,
 				0E5977321AA9F46F00CB22B6 /* Frameworks */,
@@ -296,9 +296,9 @@
 			dependencies = (
 				0E5977371AA9F46F00CB22B6 /* PBXTargetDependency */,
 			);
-			name = ParseTutorialTests;
+			name = ParseWallTests;
 			productName = ParseTutorialTests;
-			productReference = 0E5977351AA9F46F00CB22B6 /* ParseTutorialTests.xctest */;
+			productReference = 0E5977351AA9F46F00CB22B6 /* ParseWall.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +327,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0E59771B1AA9F46F00CB22B6 /* Build configuration list for PBXProject "ParseTutorial" */;
+			buildConfigurationList = 0E59771B1AA9F46F00CB22B6 /* Build configuration list for PBXProject "ParseWall" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -340,8 +340,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E59771F1AA9F46F00CB22B6 /* ParseTutorial */,
-				0E5977341AA9F46F00CB22B6 /* ParseTutorialTests */,
+				0E59771F1AA9F46F00CB22B6 /* ParseWall */,
+				0E5977341AA9F46F00CB22B6 /* ParseWallTests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 /* Begin PBXTargetDependency section */
 		0E5977371AA9F46F00CB22B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0E59771F1AA9F46F00CB22B6 /* ParseTutorial */;
+			target = 0E59771F1AA9F46F00CB22B6 /* ParseWall */;
 			targetProxy = 0E5977361AA9F46F00CB22B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,7 +511,7 @@
 				INFOPLIST_FILE = ParseTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JC.ParseWall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParseWall;
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -529,7 +529,7 @@
 				INFOPLIST_FILE = ParseTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JC.ParseWall;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ParseWall;
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseTutorial-Bridging-Header.h";
 			};
 			name = Release;
@@ -548,8 +548,8 @@
 				);
 				INFOPLIST_FILE = ParseTutorialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseTutorial.app/ParseTutorial";
+				PRODUCT_NAME = ParseWall;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseWall.app/ParseWall";
 			};
 			name = Debug;
 		};
@@ -563,15 +563,15 @@
 				);
 				INFOPLIST_FILE = ParseTutorialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseTutorial.app/ParseTutorial";
+				PRODUCT_NAME = ParseWall;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseWall.app/ParseWall";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E59771B1AA9F46F00CB22B6 /* Build configuration list for PBXProject "ParseTutorial" */ = {
+		0E59771B1AA9F46F00CB22B6 /* Build configuration list for PBXProject "ParseWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E59773D1AA9F46F00CB22B6 /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E59773F1AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseTutorial" */ = {
+		0E59773F1AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E5977401AA9F46F00CB22B6 /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E5977421AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseTutorialTests" */ = {
+		0E5977421AA9F46F00CB22B6 /* Build configuration list for PBXNativeTarget "ParseWallTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E5977431AA9F46F00CB22B6 /* Debug */,

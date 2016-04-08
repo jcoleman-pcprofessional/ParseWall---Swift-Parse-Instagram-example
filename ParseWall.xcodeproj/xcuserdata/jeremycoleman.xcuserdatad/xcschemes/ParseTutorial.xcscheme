@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0E59771F1AA9F46F00CB22B6"
-               BuildableName = "ParseTutorial.app"
-               BlueprintName = "ParseTutorial"
-               ReferencedContainer = "container:ParseTutorial.xcodeproj">
+               BuildableName = "ParseWall.app"
+               BlueprintName = "ParseWall"
+               ReferencedContainer = "container:ParseWall.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0E5977341AA9F46F00CB22B6"
-               BuildableName = "ParseTutorialTests.xctest"
-               BlueprintName = "ParseTutorialTests"
-               ReferencedContainer = "container:ParseTutorial.xcodeproj">
+               BuildableName = "ParseWall.xctest"
+               BlueprintName = "ParseWallTests"
+               ReferencedContainer = "container:ParseWall.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E59771F1AA9F46F00CB22B6"
-            BuildableName = "ParseTutorial.app"
-            BlueprintName = "ParseTutorial"
-            ReferencedContainer = "container:ParseTutorial.xcodeproj">
+            BuildableName = "ParseWall.app"
+            BlueprintName = "ParseWall"
+            ReferencedContainer = "container:ParseWall.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E59771F1AA9F46F00CB22B6"
-            BuildableName = "ParseTutorial.app"
-            BlueprintName = "ParseTutorial"
-            ReferencedContainer = "container:ParseTutorial.xcodeproj">
+            BuildableName = "ParseWall.app"
+            BlueprintName = "ParseWall"
+            ReferencedContainer = "container:ParseWall.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0E59771F1AA9F46F00CB22B6"
-            BuildableName = "ParseTutorial.app"
-            BlueprintName = "ParseTutorial"
-            ReferencedContainer = "container:ParseTutorial.xcodeproj">
+            BuildableName = "ParseWall.app"
+            BlueprintName = "ParseWall"
+            ReferencedContainer = "container:ParseWall.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

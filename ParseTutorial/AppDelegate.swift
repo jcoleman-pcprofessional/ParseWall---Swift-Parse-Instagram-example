@@ -16,11 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+
     
     let config = ParseClientConfiguration {
-      $0.applicationId = ""
-      $0.clientKey = " "
-      $0.server = ""
+      $0.applicationId = "APPIDHERE"
+      $0.clientKey = " CLIENTKEY (OPTIONAL)"
+      $0.server = "PARSE SERVER URL HERE"
     }
     Parse.initializeWithConfiguration(config)
     
